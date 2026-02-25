@@ -11,9 +11,19 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
 export class NavbarComponent {
   @Input() currentLang: string = 'en';
   @Output() switchLang = new EventEmitter<string>();
+  
+  isMobileMenuOpen: boolean = false;
 
   constructor(
     private translate: TranslateService
   ) {
+  }
+
+  toggleMobileMenu(): void {
+    this.isMobileMenuOpen = !this.isMobileMenuOpen;
+  }
+
+  closeMobileMenu(): void {
+    this.isMobileMenuOpen = false;
   }
 }

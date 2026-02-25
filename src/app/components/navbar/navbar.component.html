@@ -7,13 +7,15 @@
       height="100%"
       alt="Glow Vita Logo">
     </div>
-    <ul class="nav-links">
-      <li><a href="#home">{{ 'NAV.HOME' | translate }}</a></li>
-      <li><a href="#about">{{ 'NAV.ABOUT' | translate }}</a></li>
-      <li><a href="#products">{{ 'NAV.PRODUCTS' | translate }}</a></li>
-      <li><a href="#testimonials">{{ 'NAV.TESTIMONIALS' | translate }}</a></li>
-      <li><a href="#contact">{{ 'NAV.CONTACT' | translate }}</a></li>
+    
+    <ul class="nav-links desktop-nav">
+      <li><a href="#home" (click)="closeMobileMenu()">{{ 'NAV.HOME' | translate }}</a></li>
+      <li><a href="#about" (click)="closeMobileMenu()">{{ 'NAV.ABOUT' | translate }}</a></li>
+      <li><a href="#products" (click)="closeMobileMenu()">{{ 'NAV.PRODUCTS' | translate }}</a></li>
+      <li><a href="#testimonials" (click)="closeMobileMenu()">{{ 'NAV.TESTIMONIALS' | translate }}</a></li>
+      <li><a href="#contact" (click)="closeMobileMenu()">{{ 'NAV.CONTACT' | translate }}</a></li>
     </ul>
+
     <div class="language-switcher">
       <div class="lang-dropdown">
         <button class="lang-btn" (click)="switchLang.emit('en')" [class.active]="currentLang === 'en'">
@@ -30,5 +32,21 @@
         </button>
       </div>
     </div>
+
+    <button class="mobile-menu-toggle" (click)="toggleMobileMenu()" [class.active]="isMobileMenuOpen">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
+  </div>
+
+  <div class="mobile-menu" [class.open]="isMobileMenuOpen">
+    <ul class="mobile-nav-links">
+      <li><a href="#home" (click)="closeMobileMenu()">{{ 'NAV.HOME' | translate }}</a></li>
+      <li><a href="#about" (click)="closeMobileMenu()">{{ 'NAV.ABOUT' | translate }}</a></li>
+      <li><a href="#products" (click)="closeMobileMenu()">{{ 'NAV.PRODUCTS' | translate }}</a></li>
+      <li><a href="#testimonials" (click)="closeMobileMenu()">{{ 'NAV.TESTIMONIALS' | translate }}</a></li>
+      <li><a href="#contact" (click)="closeMobileMenu()">{{ 'NAV.CONTACT' | translate }}</a></li>
+    </ul>
   </div>
 </nav>
