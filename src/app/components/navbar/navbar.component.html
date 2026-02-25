@@ -48,5 +48,22 @@
       <li><a href="#testimonials" (click)="closeMobileMenu()">{{ 'NAV.TESTIMONIALS' | translate }}</a></li>
       <li><a href="#contact" (click)="closeMobileMenu()">{{ 'NAV.CONTACT' | translate }}</a></li>
     </ul>
+    
+    <div class="mobile-language-switcher">
+      <div class="mobile-lang-dropdown">
+        <button class="mobile-lang-btn" (click)="switchLang.emit('en')" [class.active]="currentLang === 'en'">
+          <span class="flag-circle flag-us"></span>
+          <span class="lang-text">English</span>
+        </button>
+        <button class="mobile-lang-btn" (click)="switchLang.emit('ar')" [class.active]="currentLang === 'ar'">
+          <span class="flag-circle flag-eg"></span>
+          <span class="lang-text">العربية</span>
+        </button>
+        <button class="mobile-lang-btn" (click)="switchLang.emit('ko')" [class.active]="currentLang === 'ko'">
+          <span class="flag-circle flag-kr"></span>
+          <span class="lang-text">한국어</span>
+        </button>
+      </div>
+    </div>
   </div>
 </nav>
