@@ -1,0 +1,15 @@
+<section id="products" class="section section-light">
+  <div class="container">
+    <h2>{{ 'PRODUCTS.TITLE' | translate }}</h2>
+    <div class="grid">
+      <div class="card" *ngFor="let product of products">
+        <img src="../../../assets/images/{{ product.image }}" alt="{{ 'PRODUCTS.' + product.titleKey | translate }}" />
+        <div class="card-content">
+          <h3>{{ 'PRODUCTS.' + product.titleKey | translate }}</h3>
+          <p>{{ 'PRODUCTS.' + product.descKey | translate }}</p>
+          <button class="btn">{{ 'PRODUCTS.BTN' | translate }}</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

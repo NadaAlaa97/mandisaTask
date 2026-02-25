@@ -1,0 +1,21 @@
+<section id="testimonials" class="section testimonials">
+  <div class="container">
+    <h2>{{ 'TESTIMONIALS.TITLE' | translate }}</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial-card" *ngFor="let t of testimonials">
+        <div class="testimonial-header">
+          <div class="rating">
+            <span class="star" [class]="{'filled': i < t.rating}" *ngFor="let i of [1,2,3,4,5]">★</span>
+          </div>
+          <div class="customer-info">
+            <h4>{{ t.name }}</h4>
+            <p class="verified" *ngIf="t.verified">✓ Verified Customer</p>
+          </div>
+        </div>
+        <div class="testimonial-content">
+          <p>{{ t.text }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,28 @@
+<section id="contact" class="section section-light">
+  <div class="container">
+    <h2>{{ 'CONTACT.TITLE' | translate }}</h2>
+    <form (ngSubmit)="onSubmit()">
+      <input 
+        type="text" 
+        [(ngModel)]="contactForm.name" 
+        name="name"
+        [placeholder]="'CONTACT.NAME' | translate" 
+        required
+      />
+      <input 
+        type="email" 
+        [(ngModel)]="contactForm.email" 
+        name="email"
+        [placeholder]="'CONTACT.EMAIL' | translate" 
+        required
+      />
+      <textarea 
+        [(ngModel)]="contactForm.message" 
+        name="message"
+        [placeholder]="'CONTACT.MESSAGE' | translate" 
+        required
+      ></textarea>
+      <button class="btn" type="submit">{{ 'CONTACT.BTN' | translate }}</button>
+    </form>
+  </div>
+</section>

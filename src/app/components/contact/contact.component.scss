@@ -1,0 +1,26 @@
+#contact form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  border-color: var(--color-primary);
+}
+
+#contact textarea {
+  min-height: 150px;
+  resize: vertical;
+}

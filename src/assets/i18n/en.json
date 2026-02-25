@@ -1,0 +1,96 @@
+{
+  "NAV": {
+    "HOME": "Home",
+    "ABOUT": "About",
+    "PRODUCTS": "Products",
+    "CONTACT": "Contact",
+    "TESTIMONIALS": "Testimonials"
+  },
+  "HERO": {
+    "TITLE": "Glow Naturally",
+    "SUB": "Premium skincare & beauty essentials",
+    "BTN": "Shop Now"
+  },
+  "ABOUT": {
+    "TITLE": "About Our Brand",
+    "TEXT": "We create clean, natural and effective skincare products for healthy glowing skin.",
+    "FEATURES": {
+      "NATURAL": {
+        "TITLE": "Natural",
+        "TEXT": "100% organic ingredients"
+      },
+      "EFFECTIVE": {
+        "TITLE": "Effective",
+        "TEXT": "Visible results in days"
+      },
+      "SUSTAINABLE": {
+        "TITLE": "Sustainable",
+        "TEXT": "Eco-friendly packaging"
+      }
+    }
+  },
+  "PRODUCTS": {
+    "TITLE": "Featured Products",
+    "BTN": "View Details",
+    "ITEM1": {
+      "TITLE": "Natural Face Cream",
+      "DESC": "Rich in organic ingredients for deep nourishment and natural glow."
+    },
+    "ITEM2": {
+      "TITLE": "Vitamin C Serum",
+      "DESC": "Brightening serum with powerful antioxidants for radiant skin."
+    },
+    "ITEM3": {
+      "TITLE": "Hydrating Moisturizer",
+      "DESC": "24-hour hydration with natural botanical extracts."
+    },
+    "ITEM4": {
+      "TITLE": "Glow Face Mask",
+      "DESC": "Instant glow treatment with natural minerals and vitamins."
+    },
+    "ITEM5": {
+      "TITLE": "Eye Cream",
+      "DESC": "Gentle formula to reduce dark circles and puffiness."
+    },
+    "ITEM6": {
+      "TITLE": "Body Lotion",
+      "DESC": "Full body hydration with natural plant extracts."
+    }
+  },
+  "BENEFITS": {
+    "TITLE": "Why Choose Us",
+    "ONE": "100% Natural Ingredients",
+    "ONE_DESC": "Pure, organic ingredients sourced from nature's finest botanicals",
+    "TWO": "Cruelty Free",
+    "TWO_DESC": "Never tested on animals, always kind to our furry friends",
+    "THREE": "Dermatologist Tested",
+    "THREE_DESC": "Clinically proven safe and effective for all skin types"
+  },
+  "NEWSLETTER": {
+    "TITLE": "Join Our Newsletter",
+    "PLACEHOLDER": "Enter your email",
+    "BTN": "Subscribe"
+  },
+  "CONTACT": {
+    "TITLE": "Contact Us",
+    "NAME": "Name",
+    "EMAIL": "Email",
+    "MESSAGE": "Message",
+    "BTN": "Send Message"
+  },
+  "TESTIMONIALS": {
+    "TITLE": "What Our Customers Say",
+    "TEXT": "This product has completely transformed my skin! I've never felt more confident.",
+    "CUSTOMER": "Customer"
+  },
+  "FOOTER": {
+    "RIGHTS": "All rights reserved.",
+    "TAGLINE": "Natural Beauty, Radiant Confidence",
+    "QUICK_LINKS": "Quick Links",
+    "CONTACT_INFO": "Contact Information",
+    "EMAIL": "Email",
+    "PHONE": "Phone",
+    "ADDRESS": "Address",
+    "FOLLOW_US": "Follow Us"
+  }
+}

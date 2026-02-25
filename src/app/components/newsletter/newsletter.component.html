@@ -1,0 +1,14 @@
+<section class="newsletter">
+  <div class="container">
+    <h2>{{ 'NEWSLETTER.TITLE' | translate }}</h2>
+    <div class="newsletter-form">
+      <input 
+        type="email" 
+        [(ngModel)]="email" 
+        [placeholder]="'NEWSLETTER.PLACEHOLDER' | translate"
+        (keyup.enter)="subscribe()"
+      />
+      <button class="btn" (click)="subscribe()">{{ 'NEWSLETTER.BTN' | translate }}</button>
+    </div>
+  </div>
+</section>
