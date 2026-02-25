@@ -80,8 +80,19 @@
   },
   "TESTIMONIALS": {
     "TITLE": "What Our Customers Say",
-    "TEXT": "This product has completely transformed my skin! I've never felt more confident.",
-    "CUSTOMER": "Customer"
+    "VERIFIED": "Verified Customer",
+    "CUSTOMER1": {
+      "NAME": "Sarah Johnson",
+      "TEXT": "This product has completely transformed my skin!"
+    },
+    "CUSTOMER2": {
+      "NAME": "Emily Chen",
+      "TEXT": "I've never felt more confident in my own skin."
+    },
+    "CUSTOMER3": {
+      "NAME": "Maria Rodriguez",
+      "TEXT": "The natural ingredients make all the difference."
+    }
   },
   "FOOTER": {
     "RIGHTS": "All rights reserved.",

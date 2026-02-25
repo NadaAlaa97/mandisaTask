@@ -8,12 +8,12 @@
             <span class="star" [class]="{'filled': i < t.rating}" *ngFor="let i of [1,2,3,4,5]">★</span>
           </div>
           <div class="customer-info">
-            <h4>{{ t.name }}</h4>
-            <p class="verified" *ngIf="t.verified">✓ Verified Customer</p>
+            <h4>{{ t.nameKey | translate }}</h4>
+            <p class="verified" *ngIf="t.verified">✓ {{ 'TESTIMONIALS.VERIFIED' | translate }}</p>
           </div>
         </div>
         <div class="testimonial-content">
-          <p>{{ t.text }}</p>
+          <p>{{ t.textKey | translate }}</p>
         </div>
       </div>
     </div>

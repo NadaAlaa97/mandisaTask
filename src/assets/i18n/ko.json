@@ -80,8 +80,19 @@
   },
   "TESTIMONIALS": {
     "TITLE": "고객 후기",
-    "TEXT": "이 제품은 제 피부를 완전히 바꿔놓았어요! 이렇게 자신감을 느껴본 적이 없어요.",
-    "CUSTOMER": "고객"
+    "VERIFIED": "인증 고객",
+    "CUSTOMER1": {
+      "NAME": "Sarah Johnson",
+      "TEXT": "이 제품은 제 피부를 완전히 바꿔놓았어요!"
+    },
+    "CUSTOMER2": {
+      "NAME": "Emily Chen",
+      "TEXT": "이렇게 자신감을 느껴본 적이 없어요."
+    },
+    "CUSTOMER3": {
+      "NAME": "Maria Rodriguez",
+      "TEXT": "천연 성분이 모든 차이를 만들어요."
+    }
   },
   "FOOTER": {
     "RIGHTS": "모든 권리 보유.",

@@ -12,23 +12,23 @@ export class TestimonialsComponent {
   testimonials = [
     {
       id: 1,
-      name: 'Sarah Johnson',
+      nameKey: 'TESTIMONIALS.CUSTOMER1.NAME',
+      textKey: 'TESTIMONIALS.CUSTOMER1.TEXT',
       rating: 5,
-      text: 'This product has completely transformed my skin!',
       verified: true
     },
     {
       id: 2,
-      name: 'Emily Chen',
+      nameKey: 'TESTIMONIALS.CUSTOMER2.NAME',
+      textKey: 'TESTIMONIALS.CUSTOMER2.TEXT',
       rating: 5,
-      text: 'I\'ve never felt more confident in my own skin.',
       verified: true
     },
     {
       id: 3,
-      name: 'Maria Rodriguez',
+      nameKey: 'TESTIMONIALS.CUSTOMER3.NAME',
+      textKey: 'TESTIMONIALS.CUSTOMER3.TEXT',
       rating: 4,
-      text: 'The natural ingredients make all the difference.',
       verified: false
     }
   ];
